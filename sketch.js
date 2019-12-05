@@ -1,19 +1,19 @@
 var flying=50
 //The setup function only happens once
 function setup() {
-	createCanvas(900, 900);
-	background(220,215,250); //create a 500px X 500px canvas
+	createCanvas(1400, 1155);
+	background(152,251,152); //create a 500px X 500px canvas
 }
 
 //The draw function happens over and over again
 function draw() {
-fill(0,250,154);
+fill(0,255,0);
 ellipse(mouseX,mouseY,flying,flying);
-fill(220,215,250);
-stroke(0,250,154);
-textSize(25);
-textFont("vibes");
-text("Aloha Beautiful",200,200);
+fill(255,240,245);
+stroke(64,224,208);
+textSize(50);
+textFont("script");
+text("Aloha Beautiful",500,600);
   }
 
 function mousePressed(){
