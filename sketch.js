@@ -16,7 +16,7 @@ textFont("script");
 text("Aloha Beautiful",500,600);
   }
 
-function mousePressed(){
+function mousePressed(){2
 flying=flying-10;
 2(flying-10)=flying+10;	
 	
